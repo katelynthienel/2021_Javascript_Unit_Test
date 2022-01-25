@@ -61,14 +61,18 @@
 
 					<h3>Task 1 - The Image</h3>
 					<img onmouseover = "buttonAppear()" src="assets/img/compIcon.png" id="imageTask1"><br />
-					<button style="display:none" id="buttonTask1">Click Me</button>
+					<button onclick="disapear()" style="display:none" id="buttonTask1">Click Me</button>
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
-					
-					
-					<table class="table table-striped">
+
+					<hr>
+					<button onclick="red()" style="display:none" id="red">red</button>
+					<button onclick="blue()" style="display:none" id="blue">blue</button>
+					<button onclick="green()" style="display:none" id="green">green</button>
+					<div style="background:red" id="red" onClick="showButton()">red</div>
+					<table id="table2" class="table table-striped">
 						<thead>
 							<tr>
 								<th>#</th>
