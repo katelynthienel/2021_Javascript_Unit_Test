@@ -4,7 +4,6 @@
 function buttonAppear(){
 	var supriseImage= document.getElementById("buttonTask1");
 	supriseImage.style.display = "block";
-	
 }
 function disapear(){
 	var supriseImage= document.getElementById("imageTask1");
